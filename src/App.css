@@ -1,0 +1,42 @@
+.app {
+    background-color: #083b42;
+    min-height: 100vh;
+}
+
+.app__title {
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.app__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.app__input {
+    border: none;
+    padding: 0.4em 1em;
+    border-radius: 0.5em 0 0 0.5em;
+}
+
+.app__btn {
+    display: block;
+    border: none;
+    width: 7em;
+    background-color: green;
+    padding: 0.4em;
+    border-radius: 0 0.5em 0.5em 0;
+    color: white;
+    font-weight: 700;
+}
+
+.app__card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+
